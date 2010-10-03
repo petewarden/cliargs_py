@@ -3,6 +3,10 @@ cliargs
 
 A utility module to make handling command line arguments in Python easier
 
+[Update- I ported this from my PHP personal library, but afterwards discovered
+http://docs.python.org/library/argparse.html - which is also very friendly and
+has the advantages of being built-in and widely understood]
+
 To use, pass in a dictionary describing the expected arguments, in the form
 
 {
